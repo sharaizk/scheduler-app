@@ -1,5 +1,7 @@
 This is the frontend repository for the Timesheet application
+
 Default Admin Login: Username: admin, Password: admin
+
 My Planning: 
 To desing the Frontend the plan was to design the Ui simple and add a little Ux. I spent more time on logical parts of the project. Yes, my plan of providing a DATA/SECURITY BREACH was never in my initial plans. I thought of it as i was testing the app and saw an opportunity for a highjacker by which the site could have vulnerability issues.
 For backend, the initial schema design was to hold the date in the array of sheets but that would have slowed down the response time as sheets of 1 year of 1 user would be stored in one Array but i went with excluding the Date from array. Now they sheets of 1 year of 1 user will be stored in 365 documents. Now 1 sheet of 1 date can be accessed very easily and quickly.
