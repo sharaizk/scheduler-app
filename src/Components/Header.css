@@ -1,0 +1,16 @@
+/* HEADER LINKS */
+.menu_link{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+.menu_linkDis{
+    text-decoration: none;
+    color: #585858;
+    font-size: 20px;
+    pointer-events: none;
+}
+.activeLink{
+    opacity: .5;
+    pointer-events: none;
+}

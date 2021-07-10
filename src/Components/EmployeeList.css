@@ -1,0 +1,65 @@
+.listContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.employeeLabelContainer{
+    height: 10%;
+    user-select: none;
+}
+.employeeContainer{
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        place-items: center;
+}
+.mainEmployeesContainer{
+    display: inline-block;
+    height: 90%;
+}
+.employeeCard{
+    margin-right: 20px;
+    background-color: #FFC03D;
+    width: 150px;
+    text-align: center;
+    border: 0.5px solid #000;
+    transition: all .2s ease-in;
+    user-select: none;
+    text-decoration: none;
+    color: #000;
+}
+.employeeCard:hover{
+    cursor: pointer;
+    border-top-color: #FFF;
+    border-right-color: #7E7E7E;
+    border-left-color: #7E7E7E;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px ;
+    transform: translateY(-10px);
+    box-shadow: 0 7px 0 -2px  #f85959,
+    0 15px 10px -3px #39a2db, 0 16px 10px -3px #39a2db;
+}
+.employeeCard h4{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.employeeCard h5{
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #7E7E7E;
+    font-weight: 700;
+}
+
+@media (max-width:420px) {
+    .employeeContainer{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(auto-fill, 1fr);
+        grid-row-gap: 10px;
+    }
+}

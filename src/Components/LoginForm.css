@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('http://fonts.cdnfonts.com/css/segoe-ui-4');
+.formDiv{
+    height: auto;
+    width:  105.3740779768177vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+}
+.SignformDiv{
+    height: auto;
+    width:  105.3740779768177vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+}
+.imgArea{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #cec7e5;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.img{
+    height: 52.68703898840885vh;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.formArea{
+    height:52.68703898840885vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.label{
+    font-size: 40px;
+    color: #7047EB;
+    font-family: 'Segoe UI', sans-serif;
+}
+.fieldLabel{
+    font-size: 1em;
+}
+.field{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    background-color: #E7EEFB;
+    padding: 10px;
+    box-shadow: 0px 6px 3px rgba(0,0,0,0.27);
+}
+.field:focus{
+    outline: none;
+}
+.loginBtn{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #FFC03D;
+    border: 2px solid #FFF;
+    color: #FFFF;
+
+    box-shadow: 0px 6px 3px rgba(0,0,0,0.27);
+}
+.loginBtn:hover{
+    filter: brightness(97.5%);
+}
+.loginBtn:active{
+    transform: translate(0,0.3rem);
+    box-shadow: 0 0.1rem rgba(255,255,255,0.65);
+}
+.DropDown{
+    width: 300px;
+    height: 40px;
+}
+@media (max-width:420px) {
+    .formDiv{
+        height: auto;
+        flex-direction: column;
+        width:  479;
+    }
+    .SignformDiv{
+        height: 750px;
+        flex-direction: column;
+        width:  479;
+    }
+    .img{
+        height: 40.68703898840885vh;
+    }
+    .imgArea{
+        height: 50%;
+        width: 100%;     
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius:0px;
+    }
+    .formArea{
+        height: 50%;
+        width: 100%;
+    }
+    .loginBtn{
+        margin-bottom:10px ;
+    }
+}

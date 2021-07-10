@@ -1,0 +1,8 @@
+export const SIGN_IN = "SIGN_IN"
+export const SIGN_OUT = "SIGN_OUT"
+export const SIGN_UP = "SIGN_UP"
+export const CHK_TKN="CHK_TKN"
+export const CREATE_SHEET = "CREATE_SHEET"
+export const GET_SHEET = "GET_SHEET"
+export const GET_USERS = "GET_USERS"
+export const EMP_SHEET="EMP_SHEET"

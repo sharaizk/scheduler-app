@@ -1,0 +1,50 @@
+.mainContainer{
+    height: 93.5vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeIn 0.2s ease-in;
+}
+.mainContainer h3{
+    font-size: 48px;
+    font-weight: 700;
+    user-select: none;
+}
+.headerContainer{
+    height: 10%;
+    padding-bottom: 50px;
+}
+
+.employeesContainer{
+    height: 90%;
+}
+.sweet-loading{
+    height: 93.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader{
+    color: #432344;
+}
+@media (max-width:420px) {
+    .headerContainer{
+        height: 20%;
+    }
+    .headerContainer h3{
+        font-size: 5.05795574288725vh;
+        padding-top: 10px;
+    }
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0.5;
+    }
+    to{
+        opacity: 1;
+    }
+}

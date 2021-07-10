@@ -1,0 +1,44 @@
+.mainSheet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.timeSheetContainer{
+    height: 100vh;
+    overflow-y:auto;
+    width: 400px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding-top: 10px;
+}
+.timeSheet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    background-color: #f3ba3f;
+    margin: 10px 0px;
+    height: auto;
+    width: 75%;
+    height: auto;
+    padding-left:10px ;
+    border-radius: 10px;
+    transition: all .2s ease-in;
+}
+.timeSheet:hover{
+    cursor:default;
+    transform: translateY(-10px);
+    box-shadow: 0 7px 0 -2px  #f85959,
+    0 15px 10px -3px #39a2db, 0 16px 10px -3px #39a2db
+}
+
+@media (max-width:420px) {
+    .timeSheetContainer{
+        width: 300px;
+    }
+}

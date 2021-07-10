@@ -1,0 +1,35 @@
+@import url('http://fonts.cdnfonts.com/css/segoe-ui-4');
+.container{
+    height: 93.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px ;
+    position: relative;
+}
+.appName{
+    font-size:  5.05795574288725vh;
+    margin-bottom: 50px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bolder;
+    color: #7047EB
+}
+.nameContainer{
+    position: absolute;
+    top: 20%;
+}
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width:420px) {
+    .cardContainer{
+        flex-direction: column;
+    }
+    .nameContainer{
+        position: absolute;
+        top: 10%;
+    }
+}

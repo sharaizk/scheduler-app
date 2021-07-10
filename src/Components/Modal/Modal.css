@@ -1,0 +1,26 @@
+.button{
+    width: 120px;
+    height: 40px;
+    font-size: 1.1em;
+    cursor: pointer;
+    color: white;
+    border: none;
+    transition: all .4s;
+    margin-right: 10px;
+}
+.no{
+    background-color: #ff3333;
+}
+.yes{
+    background-color: #42ba96;
+}
+.no:hover{
+    border-radius: 5px;
+    transform: translateY(-10px);
+    box-shadow: 0 7px 0 -2px #39a2db, 0 15px 0 -4px #F85959, 0 16px 10px -3px #F85959;
+}
+.yes:hover{
+    border-radius: 5px;
+    transform: translateY(-10px);
+    box-shadow: 0 7px 0 -2px #39a2db, 0 15px 0 -4px #42ba96, 0 16px 10px -3px #42ba96;
+}

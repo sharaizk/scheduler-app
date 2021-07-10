@@ -1,0 +1,18 @@
+.breachWarning{
+    height: 93.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.breachWarning h4{
+    color: #cc3300;
+    font-size: 5.05795574288725vh;
+}
+.breachWarning .warningLink{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(56, 56, 56);
+    font-size: 24px;
+    font-weight: bolder;
+}
